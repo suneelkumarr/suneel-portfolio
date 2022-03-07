@@ -20,6 +20,10 @@ import capacitorjs from '../assets/svg/skills/capacitorjs.svg'
 import coffeescript from '../assets/svg/skills/coffeescript.svg'
 import memsql from '../assets/svg/skills/memsql.svg'
 import mongoDB from '../assets/svg/skills/mongoDB.svg'
+import nodejs from '../assets/svg/skills/nodejs-2.svg'
+import express from '../assets/svg/skills/express-109.svg'
+import restapi from '../assets/svg/skills/julia.svg'
+import jira from '../assets/svg/skills/jira-1.svg'
 import mysql from '../assets/svg/skills/mysql.svg'
 import postgresql from '../assets/svg/skills/postgresql.svg'
 import tailwind from '../assets/svg/skills/tailwind.svg'
@@ -77,6 +81,7 @@ import canva from '../assets/svg/skills/canva.svg'
 
 
 export const skillsImage = (skill) => {
+    console.log(skill)
     const skillID = skill.toLowerCase();
     switch (skillID) {
         case 'gcp':
@@ -87,6 +92,14 @@ export const skillsImage = (skill) => {
             return photoshop;
         case 'docker':
             return docker;
+        case 'nodejs':
+            return nodejs;
+        case 'express':
+            return express;
+        case 'restapi':
+            return restapi;
+        case 'jira':
+            return jira;
         case 'illustrator':
             return illustrator;
         case 'adobe xd':
