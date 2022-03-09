@@ -81,7 +81,6 @@ import canva from '../assets/svg/skills/canva.svg'
 
 
 export const skillsImage = (skill) => {
-    console.log(skill)
     const skillID = skill.toLowerCase();
     switch (skillID) {
         case 'gcp':
